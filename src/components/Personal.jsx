@@ -32,12 +32,12 @@ const Personal = () => {
           }}
           className={`${
             selectedBtn === 1 ? "bg-black text-amber-50 " : "bg-white"
-          }  w-full  flex text-gray-600 font-medium    items-center md:pr-80 md:pl-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)]      pr-20 pl-4 py-3 rounded-lg   `}
+          }  w-full  flex text-gray-300 font-medium    items-center md:pr-80 md:pl-8 shadow-[0_3px_10px_rgb(0,0,0,0.2)]      pr-20 pl-4 py-3 rounded-lg   `}
           disabled={selectedBtn === 1}
         >
           <PiStudentBold className="mr-2 text-2xl text-blue-600 " />
           <b
-            className={`mr-1 text-black  italic  ${
+            className={`mr-1 text-violet-600  italic  ${
               selectedBtn == 1 ? "text-amber-200" : "text-black"
             }`}
           >
@@ -51,12 +51,12 @@ const Personal = () => {
           }}
           className={`${
             selectedBtn === 2 ? "bg-black text-amber-50" : "bg-white"
-          }  w-full md:pr-80 md:pl-8 flex text-gray-600 font-medium   items-center    shadow-[0_3px_10px_rgb(0,0,0,0.2)]     pr-20 pl-4 py-3 rounded-lg  `}
+          }  w-full md:pr-80 md:pl-8 flex text-gray-300 font-medium   items-center    shadow-[0_3px_10px_rgb(0,0,0,0.2)]     pr-20 pl-4 py-3 rounded-lg  `}
           disabled={selectedBtn === 2}
         >
           <FcBusinessman className="mr-2 text-2xl text-blue-600 " />
           <b
-            className={`mr-1 text-black  italic  ${
+            className={`mr-1 text-violet-600  italic  ${
               selectedBtn == 2 ? "text-amber-200" : "text-black"
             }`}
           >
@@ -70,13 +70,13 @@ const Personal = () => {
           }}
           className={`${
             selectedBtn === 3 ? "bg-black text-amber-100 " : "bg-white  "
-          }  w-full md:pr-80 md:pl-8 flex text-gray-600 font-medium   items-center shadow-[0_3px_10px_rgb(0,0,0,0.2)]    pr-20 pl-4 py-3 rounded-lg  `}
+          }  w-full md:pr-80 md:pl-8 flex text-gray-500 font-medium   items-center shadow-[0_3px_10px_rgb(0,0,0,0.2)]    pr-20 pl-4 py-3 rounded-lg  `}
           disabled={selectedBtn === 3}
         >
           <PiChalkboardTeacherDuotone className="mr-2 text-2xl text-pink-600 " />
           <b
-            className={`mr-1 text-black  italic  ${
-              selectedBtn == 3 ? "text-amber-200" : "text-black"
+            className={`mr-1 text-violet-600  italic  ${
+              selectedBtn == 3 ? "text-gray-200" : "text-black"
             }`}
           >
             Teacher
@@ -88,12 +88,12 @@ const Personal = () => {
           }}
           className={`${
             selectedBtn === 4 ? "bg-black text-amber-50" : "bg-white"
-          }  w-full md:pr-80 md:pl-8 flex text-gray-600 font-medium   items-center   shadow-[0_3px_10px_rgb(0,0,0,0.2)]   pr-20 pl-4 py-3 rounded-lg  `}
+          }  w-full md:pr-80 md:pl-8 flex text-gray-300 font-medium   items-center   shadow-[0_3px_10px_rgb(0,0,0,0.2)]   pr-20 pl-4 py-3 rounded-lg  `}
           disabled={selectedBtn === 4}
         >
           <RiParentFill className="mr-2 text-2xl text-green-700 " />
           <b
-            className={`mr-1 text-black  italic  ${
+            className={`mr-1 text-violet-600  italic  ${
               selectedBtn == 4 ? "text-amber-200" : "text-black"
             }`}
           >
@@ -112,7 +112,7 @@ const Personal = () => {
         >
           <GrUserManager className="mr-2 text-2xl text-orange-600 " />
           <b
-            className={`mr-1 text-black  italic  ${
+            className={`mr-1 text-violet-600  italic  ${
               selectedBtn == 5 ? "text-amber-200" : "text-black"
             }`}
           >

@@ -41,7 +41,7 @@ const Interested = () => {
           }}
           className={`${
             selectedBtn === 1 ? "bg-black text-amber-200 " : "bg-white"
-          }  w-full md:pr-80 md:pl-8 flex   font-medium   items-center   shadow-[0_3px_10px_rgb(0,0,0,0.2)]      text-gray-700 pr-20 pl-4 py-3 rounded-lg  `}
+          }  w-full md:pr-80 md:pl-8 flex   font-medium   items-center   shadow-[0_3px_10px_rgb(0,0,0,0.2)]      text-gray-400 pr-20 pl-4 py-3 rounded-lg  `}
           disabled={selectedBtn === 1}
         >
           <AiOutlineStock className="mr-3 text-2xl text-yellow-600 " />
@@ -53,7 +53,7 @@ const Interested = () => {
           }}
           className={`${
             selectedBtn === 2 ? "bg-black text-amber-200" : "bg-white"
-          }  w-full md:pr-80 md:pl-8 flex  font-medium   items-center   shadow-[0_3px_10px_rgb(0,0,0,0.2)]     text-gray-700 pr-20 pl-4 py-3 rounded-lg  `}
+          }  w-full md:pr-80 md:pl-8 flex  font-medium   items-center   shadow-[0_3px_10px_rgb(0,0,0,0.2)]     text-gray-400 pr-20 pl-4 py-3 rounded-lg  `}
           disabled={selectedBtn === 2}
         >
           <FaGlobeAsia className="mr-3 text-2xl text-blue-400 " />
@@ -65,7 +65,7 @@ const Interested = () => {
           }}
           className={`${
             selectedBtn === 3 ? "bg-black text-amber-200 " : "bg-white  "
-          }  w-full md:pr-80 md:pl-8 flex  font-medium   items-center   shadow-[0_3px_10px_rgb(0,0,0,0.2)]    text-gray-700    pr-20 pl-4 py-3 rounded-lg  `}
+          }  w-full md:pr-80 md:pl-8 flex  font-medium   items-center   shadow-[0_3px_10px_rgb(0,0,0,0.2)]    text-gray-400    pr-20 pl-4 py-3 rounded-lg  `}
           disabled={selectedBtn === 3}
         >
           <PiMathOperationsFill className="mr-3 text-2xl text-pink-600 " />
@@ -77,7 +77,7 @@ const Interested = () => {
           }}
           className={`${
             selectedBtn === 4 ? "bg-black text-amber-200 " : "bg-white"
-          }  w-full md:pr-80 md:pl-8    flex   font-medium   items-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)]      text-gray-700 pr-20 pl-4 py-3 rounded-lg  `}
+          }  w-full md:pr-80 md:pl-8    flex   font-medium   items-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)]      text-gray-400 pr-20 pl-4 py-3 rounded-lg  `}
           disabled={selectedBtn === 4}
         >
           <SiMusicbrainz className="mr-3 text-2xl text-purple-700 " />
@@ -89,7 +89,7 @@ const Interested = () => {
           }}
           className={`${
             selectedBtn === 5 ? "bg-black text-amber-200  " : "bg-white"
-          }  w-full md:pr-80 md:pl-8    flex   font-medium   items-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)]     text-gray-700 pr-20 pl-4 py-3 rounded-lg  `}
+          }  w-full md:pr-80 md:pl-8    flex   font-medium   items-center  shadow-[0_3px_10px_rgb(0,0,0,0.2)]     text-gray-400 pr-20 pl-4 py-3 rounded-lg  `}
           disabled={selectedBtn === 5}
         >
           <FcSportsMode className="mr-3 text-2xl text-green-700 " />
